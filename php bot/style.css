@@ -1,0 +1,47 @@
+#form{
+  background-color: #ccc;
+}
+.error, .delete{
+  border: 2px solid red;
+  max-width: 280px;
+}
+
+.radio_tables, .powers_counter{
+  margin-right: 260px;
+
+  display: inline-block;
+}
+#nomer{
+  font-size:80pt;
+  font-weight:bold;
+  font-family:'Times New Roman';
+}
+.return {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:50%;
+  texttmargin-right: auto;
+  font-size:40pt;
+  font-weight:bold;
+  font-family:'Times New Roman';
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 20px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+} 
+.return:hover { background: rgb(53, 167, 110); }
+.return:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.return_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
