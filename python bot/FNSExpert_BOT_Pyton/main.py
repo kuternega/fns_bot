@@ -1,13 +1,13 @@
 import asyncio
 
-from app.handlers import bot_a, dp
+from app.handlers import bot, dp
 from app.handlers import router
 
 
 # подключаем бота, вводим токен из BotFather
 async def main():
     dp.include_router(router)
-    await dp.start_polling(bot_a)
+    await dp.start_polling(bot)
 
 # должно быть приветственное сообщение, но не выходит
 
