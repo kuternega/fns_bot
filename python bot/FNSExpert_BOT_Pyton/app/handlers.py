@@ -73,7 +73,7 @@ async def catalog(message: Message):
 # тут должен подгружать файл с прайсом
 @router.message(F.text == 'Скачать прайс')
 async def price(message: Message):
-    file_path = '../pdf/price.pdf'
+    file_path = '../../pdf/price.pdf'
     document = FSInputFile(file_path)
     await message.answer_document(document)
 
@@ -81,7 +81,7 @@ async def price(message: Message):
 # Тут должен подгружаться файл с бухгалтерскими услугами
 @router.message(F.text == 'Бухгалтерские услуги')
 async def price(message: Message):
-    file_path = '../pdf/buh_uslugi.pdf'
+    file_path = '../../pdf/buh_uslugi.pdf'
     document = FSInputFile(file_path)
     await message.answer_document(document)
 
@@ -89,7 +89,7 @@ async def price(message: Message):
 # Тут должен подгружаться файл с юридическими услугами
 @router.message(F.text == 'Юридические услуги')
 async def price(message: Message):
-    file_path = '../pdf/ur_uslugi.pdf'
+    file_path = '../../pdf/ur_uslugi.pdf'
     document = FSInputFile(file_path)
     await message.answer_document(document)
 
